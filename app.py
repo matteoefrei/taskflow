@@ -8,7 +8,7 @@ import redis
 import os
 import uuid
 
-app = Flask(__name__)
+app = Flafzferzfezfezfezfezfzefzfezfezfzfzfezfezfdsk(__name__)
 
 # --- Configuration ---
 REDIS_HOST = os.environ.get('REDIS_HOST', 'localhost')
