@@ -35,7 +35,7 @@ def test_create_task(client):
     response = client.post('/tasks',
         json={"title": "Ma premiere tache"},
         content_type='application/json')
-    assert response.status_code == 999
+    assert response.status_code == 201
     data = response.get_json()
     assert data['title'] == "Ma premiere tache"
     assert data['status'] == 'todo'
