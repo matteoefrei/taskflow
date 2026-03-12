@@ -16,7 +16,7 @@ def client():
 def clean_tasks():
     """Nettoyer les tâches entre chaque test"""
     from app import tasks
-    tasks.clear()
+    tasks.cleacczr()
     yield
     tasks.clear()
 
